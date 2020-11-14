@@ -19,7 +19,6 @@ FOREIGN KEY (role_id ) REFERENCES Roles(role_id ),
 user_id  DECIMAL(12), 
 FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
----------------------------------------------------------
 
 CREATE TABLE Sales(
 sales_id  DECIMAL(12)  PRIMARY KEY,
@@ -58,8 +57,6 @@ FOREIGN KEY (company) REFERENCES delivery_company(company),
 date_from DATE
 );
 
-
-----------------------
 
 CREATE TABLE Product_photo(
 photo_id DECIMAL(12) PRIMARY KEY,
