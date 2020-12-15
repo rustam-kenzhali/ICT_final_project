@@ -1,3 +1,5 @@
 # ICT_final_project
-ERD.jpg
+
+
+![alt text](https://github.com/rustam-kenzhali/ICT_final_project/blob/main/ERD.jpg)
 
